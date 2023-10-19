@@ -1,0 +1,367 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* HOME PAGE CSS */
+.home {
+  background-color: rgb(20, 19, 19);
+  margin: 0;
+  padding: 0;
+}
+
+
+.brand {
+  text-decoration: none;
+  color: rgb(25, 116, 96);
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.brand img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+#navbarContent ul li a {
+  color: white;
+  margin-left: 30px;
+}
+
+#navbarContent ul li a:hover {
+  color: rgb(25, 116, 96);
+}
+
+#navbarContent ul li a i {
+  color: #3c995b;
+  margin-left: 7px;
+}
+
+.bodyContent {
+  color: white;
+}
+
+.villa {
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.input-field{
+  margin-left: 8%;
+}
+.input-group{
+  width: 100%;
+}
+
+.input-group input {
+  border-radius: 0 5px 5px 0;
+  border: none;
+}
+
+/* Remove the highlight when input is focused */
+.input-group input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Style for the icon inside the input group */
+.input-group-text {
+background-color: white;
+  border:none;
+  color: #5aa066;
+}
+
+
+.counts article {
+  color: white;
+  font-size: 25px;
+}
+
+.increment {
+  color: orange;
+}
+
+.label {
+  font-size: 15px;
+}
+
+.logos {
+  max-width: 100%;
+  max-height: 40%;
+}
+
+.company-info {
+  opacity: 0.2;
+  transition: opacity 0.2s;
+}
+
+.company-info:hover {
+  opacity: 1;
+}
+
+.company-name h3 {
+  color: rgb(51, 167, 128);
+  font-size: 15px;
+}
+
+/**** RESIDENCE PAGE CSS ****/
+
+.residence-page {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.residence-body h4 {
+  color: orange;
+}
+
+.residence-body h2 {
+  color: rgb(29, 29, 54);
+}
+
+.card-title .dollar-sign {
+  color: orange;
+}
+.card-body .residence-name{
+  color: black;
+  font-size: 18px;
+}
+.residence-cards{
+  height:100%;
+}
+
+.residence-cards .card {
+  width: 12rem; 
+  height: 15rem;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s, transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+  border-color: #fff;
+  }
+
+.residence-cards .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(8, 8, 8, 0.767), 0 4px 8px rgba(7, 7, 7, 0.06);
+}
+
+.residence-cards .card-body p {
+ width: 90%;
+}
+
+.residence-cards .carousel-inner {
+  flex-wrap: nowrap;
+  overflow: hidden;
+  
+}
+
+.residence-cards .carousel-inner-3cards .carousel-item {
+  flex-direction: row;
+  justify-content:center;
+}
+
+.carousel-control-prev, .carousel-control-next,.carousel-indicators {
+  color:black;
+}
+
+.carousel-column  {
+  width: 10rem; 
+  max-width: 100%;
+  margin: 2.5rem 3rem; 
+}
+.carousel-item .row{
+   flex-wrap: nowrap;
+   overflow: hidden;
+} 
+
+
+ /**** VALUE CSS ****/
+
+ .value-page{
+  background-color:white;
+  margin:0;
+  padding:0;
+ }
+ .value-info{
+  padding-left: 45px;
+  width: 100%;
+  max-width: 100%;
+ }
+
+.value-info h3{
+  color:orange;
+  margin-bottom:10px;
+}
+
+.value-info h2 {
+  color: rgb(26, 26, 88);
+  font-size:40px;
+  font-weight:500;
+  margin-bottom:20px;
+}
+
+.value-info p{
+  max-width:100%;
+  font-size:15px;
+  width:480px;
+  margin-bottom:20px ;
+}
+
+.value-content .value-img{
+  max-width:100%;
+  width: 620px;
+  height: 500px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  float:left;
+  margin-top:100px;
+ border-radius: 44% 36% 24% 44% / 0% 48% 4% 19%; 
+}
+
+
+.accordion {
+  width: 100%; 
+  max-width:100%; 
+}
+
+.accordion-icon, .accordion-header{
+  color: rgb(26, 26, 88);
+}
+
+.accordion-body{
+ align-content: center;
+}
+
+.accordion-item,.accordion-header {
+  border: none;
+  border-radius: 1.25rem;
+}
+
+.accordion-button {
+  padding: 0.5rem 1rem; 
+  margin: 0; 
+}
+.accordion-header strong{
+  color: rgb(51, 167, 128);
+
+}
+
+.accordion-body{
+  height: 90%;
+}
+
+.box-shadow-accordion .accordion-item {
+  box-shadow: 0 4px 6px rgba(73, 73, 73, 0.822);
+}
+
+.box-shadow-accordion .accordion-item:hover {
+  box-shadow: 0 8px 12px rgba(17, 17, 17, 0.945);
+}
+
+
+/**** CONTACT-US ****/
+.contact-page{
+  background-color:white;
+  margin:0;
+  padding:0;
+ }
+ .contact-info{
+  max-width: 100%;
+ }
+
+.contact-info h3{
+  color:orange;
+  margin-bottom:3px;
+}
+
+.contact-info h2{
+  color: rgb(26, 26, 88);
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom:5px;
+
+}
+
+.contact-info p{
+  color:black;
+  font-size: 17px;
+  font-weight: 300;
+  /* width: 100%; */
+  max-width:100%;
+  margin-bottom:30px;
+
+}
+
+.contact-image {
+ margin-top:120px;
+ float: right;
+  height: 500px;
+  width: 600px;
+  max-width: 100%;
+  background-color: #3b9e89;
+  border-radius: 51% 51% 10% 10% / 41% 41% 1% 2% ;
+}
+
+.cards-content{
+  margin-left:10%;
+}
+
+.cards-content .card {
+  box-shadow: 0 4px 6px rgba(90, 90, 90, 0.822);
+  width: 12rem;
+  }
+
+.cards-content .btn{
+  border: none;
+  background-color: #f3efeff3;
+  color: rgba(33, 33, 204, 0.87);
+  border-radius: 5px;
+}
+
+.cards-content .btn:hover{
+  background-color:rgba(33, 33, 204, 0.87);
+  color:white;
+}
+
+.cards-content i{
+  background-color: #f3efeff3;
+  color:rgba(33, 33, 204, 0.87);
+  border-radius: 3px;
+  padding:3px;
+  font-size: 14px;
+}
+
+ .web-subscribe{
+width: 24rem;
+max-width: 100%;
+margin-left: 30%;
+border-radius: 5%;
+background-color:rgb(36, 35, 35) ;
+}
+
+.web-subscribe .card-body h2{
+  color: white;
+}
+
+.web-subscribe .card-body p{
+  color: rgb(141, 134, 134);
+}
+
+/* .contact-footer */
+.contact-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.contact-footer a {
+  color: #fff;
+  text-decoration: none;
+}
