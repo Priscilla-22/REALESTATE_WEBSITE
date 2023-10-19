@@ -6,7 +6,7 @@
 
 .home {
   background-color: rgb(20, 19, 19);
-  margin: 0;
+  margin-bottom: 8px;
   padding: 0;
 }
 
@@ -32,10 +32,19 @@
   color: rgb(25, 116, 96);
 }
 
-/* #navbarContent ul li a i {
-  color: #3c995b;
-  margin-left: 7px;
-} */
+#navbarContent ul li .btn-theme{
+  background-color:rgba(20, 156, 40, 0.767);
+  pointer-events: none;
+}
+
+#navbarContent ul li i .btn-theme::before{
+  color:white;
+}
+
+#navbarContent ul li i .btn-theme::after{
+    color:black;
+  
+}
 
 .bodyContent {
   color: white;
@@ -107,14 +116,16 @@ background-color: white;
   font-size: 15px;
 }
 
-.dark-mode {
+.dark-mode{
   background-color: black;
   color: white;
 }
 
 
 /**** RESIDENCE PAGE CSS ****/
-
+.residence{
+  margin-top: 8px;
+}
 .residence-page {
   background-color: #fff;
   margin: 0;
@@ -189,12 +200,11 @@ background-color: white;
 
 
  /**** VALUE CSS ****/
+.value{
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
 
- .value-page{
-  background-color:white;
-  margin:0;
-  padding:0;
- }
  .value-info{
   padding-left: 45px;
   width: 100%;
