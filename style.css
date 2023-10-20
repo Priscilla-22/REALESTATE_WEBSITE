@@ -32,18 +32,19 @@
   color: rgb(25, 116, 96);
 }
 
-#navbarContent ul li .btn-theme{
-  background-color:rgba(20, 156, 40, 0.767);
-  pointer-events: none;
+#navbarContent ul li .noHover{
+  /* background-color:rgba(20, 156, 40, 0.767); */
+  border-color: none;
+    background-color:white;
+
 }
 
-#navbarContent ul li i .btn-theme::before{
-  color:white;
+#navbarContent ul li .btn-theme i::before{
+  color:black;
 }
 
-#navbarContent ul li i .btn-theme::after{
-    color:black;
-  
+#navbarContent ul li .btn-theme i::after{
+ color:white;
 }
 
 .bodyContent {
@@ -170,6 +171,7 @@ background-color: white;
 }
 
 .residence-cards .card-body p {
+  color: rgb(9, 9, 41);
  width: 90%;
 }
 
