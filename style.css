@@ -11,10 +11,10 @@
   padding: 0;
 }
 
-
-.loginForm::before {
+.subscribe-form::before {
   content: '';
-  position: absolute;
+  position: absolute;  
+  background-color: rgb(20, 19, 19);
   height: 100%;
   width: 100%;
   z-index: 100;
@@ -24,7 +24,7 @@
   transition: all 0.5s ease-out;
 }
 
-.loginForm.show::before {
+.subscribe-form.show::before {
   opacity: 1;
   pointer-events: auto;
 }
@@ -46,7 +46,7 @@
   transition: all 0.4s ease;
 }
 
-.loginForm.show .form-container {
+.subscribe-form.show .form-container {
   opacity: 1;
   pointer-events: auto;
   transform: translate(-50%, -50%) scale(1);
@@ -55,7 +55,12 @@
 .signup-form {
   display: none;
 }
-
+.signup-form h2 {
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  font-weight:bolder;
+}
 .form-container.active .signup-form {
   display: block;
 }
@@ -74,9 +79,10 @@
 }
 
 .login-form h2 {
-  font-size: 22px;
+  font-size: 25px;
   color: black;
   text-align: center;
+  font-weight:bolder;
 }
 
 .input-box {
@@ -98,7 +104,7 @@
 }
 
 .input-box input:focus {
-  border-color: #7d2ae8;
+  border-color: #0ff87094;
 }
 
 .input-box i {
@@ -111,7 +117,7 @@
 .input-box i.email,
 .input-box i.password {
   left: 0;
-  color: #707070;
+  color: #131212;
 }
 
 .input-box input:focus~i.email,
@@ -122,7 +128,7 @@
 .input-box i.pw-hide {
   right: 0;
   font-size: 15px;
-  color: #707070;
+  color: #141414;
   cursor: pointer;
 }
 
@@ -135,7 +141,7 @@
 
 .form-container a {
   color: #7d2ae8;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .form-container a:hover {
@@ -150,18 +156,18 @@
 }
 
 .checkbox input {
-  accent-color: #7d2ae8;
+  accent-color: #1ad166;
 }
 
 .checkbox label {
-  font-size: 12px;
+  font-size: 13px;
   user-select: none;
   color: #0b0217;
   cursor: pointer;
 }
 
 .form-container .button {
-  background: #7d2ae8;
+  background: #13a839c7;
   margin-top: 30px;
   width: 100%;
   padding: 10px 0;
@@ -169,7 +175,7 @@
 }
 
 .login-signup {
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
   margin-top: 15px;
 }
